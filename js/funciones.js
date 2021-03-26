@@ -4,6 +4,15 @@ function saludar() {
 
 saludar();
 
+//let resultado = 10;
+
+/**
+ * Ejemplo de documentacion
+ * @param {Int} pNumero1 
+ * @param {Int} pNumero2 
+ * @param {String} pOperation 
+ * @returns Int
+ */
 function calculadora(pNumero1, pNumero2, pOperation) {
     let resultado = 0;
     switch (pOperation) {
